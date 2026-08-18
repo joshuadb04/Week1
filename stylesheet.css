@@ -1,0 +1,35 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+img {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+}
+
+.itemz::marker {
+    color: red;
+}
+
+ul {
+    list-style-type: square;
+}
+
+tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
