@@ -1,35 +1,62 @@
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(144, 218, 144);
+}
+
+#top-portion {
+  text-align: center;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  line-height: 1.5;
 }
 
 a {
-    color: gray;
-    text-decoration: none;
+  color: darkslategray;
+  text-decoration: none;
 }
 
 a:hover {
-    color: yellowgreen;
+  color: red;
 }
 
 img {
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10%;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25%;
+}
+
+#my-image {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .itemz::marker {
-    color: red;
+  color: darkgreen;
 }
 
 ul {
-    list-style-type: square;
+  list-style-type: square;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+table {
+  border: 2px;
+  border-style: dotted;
+  border-color: rgb(27, 47, 25);
 }
 
 tr:nth-child(odd) {
-    background-color: gainsboro;
+  background-color: rgb(120, 186, 127);
 }
 
 tr:nth-child(even) {
-    background-color: whitesmoke;
+  background-color: rgb(175, 230, 188);
 }
